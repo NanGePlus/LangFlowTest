@@ -16,12 +16,7 @@ logger = logging.getLogger(__name__)
 # oneapi相关配置(通义千问为例) 根据自己的实际情况进行调整
 MODEL_API_BASE = "http://139.224.72.218:3000/v1"
 MODEL_CHAT_API_KEY = "sk-DoU00d1PaOMCFrSh68196328E08e443a8886E95761D7F4Bf"
-MODEL_CHAT_MODEL = "qwen-max"
-
-# # 本地大模型配置(Ollama) 根据自己的实际情况进行调整
-# MODEL_API_BASE = "http:localhost:11434/v1"
-# MODEL_CHAT_API_KEY = "ollama"
-# MODEL_CHAT_MODEL = "qwen2"
+MODEL_CHAT_MODEL = "qwen-max"       
 
 
 # 2、prompt相关配置  引入外部的文件内容
