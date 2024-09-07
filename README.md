@@ -13,8 +13,9 @@ GitHub地址:https://github.com/langflow-ai/langflow
 ## 2.1 anaconda、pycharm 安装   
 anaconda:提供python虚拟环境，官网下载对应系统版本的安装包安装即可              
 pycharm:提供集成开发环境，官网下载社区版本安装包安装即可            
-可参考如下视频进行安装：              
-https://www.bilibili.com/video/BV1tQWje1ErT/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                     
+可参考如下视频进行安装：                                          
+https://www.bilibili.com/video/BV1q9HxeEEtT/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                                    
+https://youtu.be/myVgyitFzrA                                                             
 
 ## 2.2 非GPT大模型(国产大模型)使用方案，OneAPI安装、部署、创建渠道和令牌 
 ### （1）OneAPI是什么
