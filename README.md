@@ -36,7 +36,7 @@ https://www.bilibili.com/video/BV1zkWse9Enb/?vd_source=30acb5331e4f5739ebbad50f7
 ## 2.4 本地大模型使用方案，Ollama     
 Ollama是一个轻量级、跨平台的工具和库，专门为本地大语言模型(LLM)的部署和运行提供支持              
 它旨在简化在本地环境中运行大模型的过程，不需要依赖云服务或外部API，使用户能够更好地掌控和使用大型模型                
-(1)安装Ollama，进入官网https://ollama.com/下载对应系统版本直接安装即可           
+(1)安装Ollama，进入官网https://ollama.com/  下载对应系统版本直接安装即可           
 (2)启动Ollama，安装所需要使用的本地模型，执行指令进行安装即可:                
 ollama pull qwen2:latest               
 ollama pull llama3.1:latest              
@@ -66,8 +66,8 @@ pip install -r requirements.txt
 # 4、项目测试          
 ## 4.1 基础案例:推荐流量包的智能客服测试
 ### (1)使用LangFlow搭建推荐流量包的智能客服工作流
-首先，在终端命令行中启动LangFlow服务，执行 langflow run 命令启动                  
-启动成功后，登陆http://127.0.0.1:7860，在服务页面进入store菜单中创建API Key                          
+首先，在终端命令行中启动LangFlow服务，执行 langflow run 命令启动                   
+启动成功后，登陆http://127.0.0.1:7860，在服务页面进入store菜单中创建API Key                            
 最后进入My Collectio菜单中新建工程进行工作流编排，测试没问题后，导出工作流json文件                     
 
 ### （2）通过调用API接口方式使用创建的工作流
