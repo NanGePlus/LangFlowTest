@@ -31,8 +31,9 @@ https://youtu.be/w9CRDbafhPI
 
 ## 2.3 GPT大模型使用方案            
 可以使用代理的方式，具体代理方案自己选择                          
-可以参考视频《GraphRAG最新版本0.3.0对比实战评测-使用gpt-4o-mini和qwen-plus分别构建近2万字文本知识索引+本地/全局检索对比测试》中推荐的方式：                      
-https://www.bilibili.com/video/BV1zkWse9Enb/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                           
+可以参考视频《GraphRAG最新版本0.3.0对比实战评测-使用gpt-4o-mini和qwen-plus分别构建近2万字文本知识索引+本地/全局检索对比测试》中推荐的方式：                     
+https://www.bilibili.com/video/BV1maHxeYEB1/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                         
+https://youtu.be/iXfsJrXCEwA                  
                             
 
 # 3、项目初始化
