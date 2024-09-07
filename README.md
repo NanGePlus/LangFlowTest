@@ -1,6 +1,9 @@
 # 0、项目简介
 实现使用开源的LangFlow框架，零代码实现大模型相关应用如流量包推荐智能客服、RAG应用等，并使用两种方式将创建的工作流集成到自己的项目中                                                   
-
+相关教程视频链接：                    
+(1)【LangFlow+零代码快速搭建AI工作流】并将创建的工作流快速集成到自己的项目中，同时支持GPT大模型、国产大模型等               
+https://www.bilibili.com/video/BV1qMp8ebE7x/?vd_source=30acb5331e4f5739ebbad50f7cc6b949              
+https://youtu.be/vn03FLqQz4A                  
 
 # 1、基础概念
 ## 1.1 LangFlow简介  
