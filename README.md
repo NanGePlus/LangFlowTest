@@ -32,19 +32,7 @@ https://youtu.be/w9CRDbafhPI
 可以使用代理的方式，具体代理方案自己选择                          
 可以参考视频《GraphRAG最新版本0.3.0对比实战评测-使用gpt-4o-mini和qwen-plus分别构建近2万字文本知识索引+本地/全局检索对比测试》中推荐的方式：                      
 https://www.bilibili.com/video/BV1zkWse9Enb/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                           
-
-## 2.4 本地大模型使用方案，Ollama     
-Ollama是一个轻量级、跨平台的工具和库，专门为本地大语言模型(LLM)的部署和运行提供支持              
-它旨在简化在本地环境中运行大模型的过程，不需要依赖云服务或外部API，使用户能够更好地掌控和使用大型模型                
-(1)安装Ollama，进入官网https://ollama.com/  下载对应系统版本直接安装即可           
-(2)启动Ollama，安装所需要使用的本地模型，执行指令进行安装即可:                
-ollama pull qwen2:latest               
-ollama pull llama3.1:latest              
-本次使用的模型如下:               
-chat模型:qwen2:latest(7b),对应版本有0.5b、1.5b、7b、72b;llama3.1:latest(也就是llama3.1:8b)，对应版本有8b、70b、405b等             
-详细介绍可以观看这期视频【GraphRAG+Ollama】本地开源大模型llama3.1与qwen2构建+检索全流程实操对比评测，打造基于知识图谱的本地知识库，本地搜索、全局搜索二合一：                            
-https://www.bilibili.com/video/BV1mpH9eVES1/?vd_source=30acb5331e4f5739ebbad50f7cc6b949              
-https://youtu.be/thNMan45lWA                            
+                            
 
 # 3、项目初始化
 ## 3.1 下载源码
