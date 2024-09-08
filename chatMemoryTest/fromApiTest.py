@@ -18,11 +18,6 @@ MODEL_CHAT_MODEL = "gpt-4o-mini"
 # MODEL_CHAT_API_KEY = "sk-DoU00d1PaOMCFrSh68196328E08e443a8886E95761D7F4Bf"
 # MODEL_CHAT_MODEL = "qwen-max"
 
-# # 本地大模型配置(Ollama) 根据自己的实际情况进行调整
-# MODEL_API_BASE = "http:localhost:11434/v1"
-# MODEL_CHAT_API_KEY = "ollama"
-# MODEL_CHAT_MODEL = "qwen2"
-
 
 # 2、prompt相关配置  引入外部的文件内容
 sys_file_path = "prompt_template_system.txt"
