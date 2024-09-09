@@ -7,7 +7,12 @@ https://youtu.be/vn03FLqQz4A
 
 (2)【零代码快速搭建带记忆功能的对话应用】LangFlow创建工作流并提供两种方式快速集成到自己的项目中，同时支持GPT大模型、国产大模型等            
 https://www.bilibili.com/video/BV1HYpqexEDm/?vd_source=30acb5331e4f5739ebbad50f7cc6b949            
-https://youtu.be/2W_WwciiSf0                      
+https://youtu.be/2W_WwciiSf0                   
+
+(3)【零代码快速搭建RAG应用】LangFlow+Ollama本地开源大模型创建工作流实现本地知识库RAG应用并提供两种方式快速集成到自己的项目中                     
+https://www.bilibili.com/video/BV1FPpne3Ekz/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                
+https://youtu.be/GUEx5g-Nu6k                       
+
 
 # 1、基础概念
 ## 1.1 LangFlow简介  
