@@ -87,3 +87,42 @@ pip install -r requirements.txt
 **模型相关配置 根据自己的实际情况进行调整**           
 **引入LangFlow的json文件**            
 
+## 4.3 进阶案例:健康档案私有知识库
+在本进阶案例零代码实现健康档案私有知识库构建并使用本地开源大模型进行检索全流程。功能:                       
+离线步骤:文档加载->文档切分->向量化->灌入向量数据库              
+在线步骤:获取用户问题->用户问题向量化->检索向量数据库->将检索结果和用户问题填入prompt模版->用最终的prompt调用LLM->由LLM生成回复        
+**本案例通过代码实现，请查看这期视频:**
+【流程实操】RAG+LangChain+FastAPI+OpenAI+通义千问打造私有领域知识库，构建和检索全流程源码分享，一份代码搞定多类型大模型集成               
+https://www.bilibili.com/video/BV1ryHxesEHs/?vd_source=30acb5331e4f5739ebbad50f7cc6b949                       
+https://youtu.be/xAEi5CWEIl0                         
+### (1)Chroma数据库
+向量数据库，专门为向量检索设计的中间件              
+使用本地持久化存储方案 持久化一个本地文件夹             
+### (2)本地开源大模型，Ollama方案
+Ollama是一个轻量级、跨平台的工具和库，专门为本地大语言模型(LLM)的部署和运行提供支持          
+它旨在简化在本地环境中运行大模型的过程，不需要依赖云服务或外部API，使用户能够更好地掌控和使用大型模型                
+安装Ollama，进入官网https://ollama.com/下载对应系统版本直接安装即可                           
+启动Ollama，安装所需要使用的本地模型，执行指令进行安装即可:                               
+ollama pull qwen2:latest                                     
+ollama pull llama3.1:latest                                  
+ollama pull gemma2:latest                                     
+ollama pull nomic-embed-text:latest                                    
+本次使用的模型如下:                  
+chat模型:qwen2:latest(7b),对应版本有0.5b、1.5b、7b、72b;llama3.1:latest(8b)，对应版本有8b、70b、405b;gemma2:latest(9b)，对应版本有2b、9b、27b等                
+embedding模型:nomic-embed-text:latest(也就是1.5版本)                        
+### (3)启动LangFlow服务    
+首先，在终端命令行中启动LangFlow服务，执行 langflow run 命令启动                             
+启动成功后，登陆http://127.0.0.1:7860，在服务页面进入store菜单中创建API Key                                      
+最后进入My Collection菜单中新建工程进行工作流编排               
+### (4)使用LangFlow搭建灌库工作流    
+离线步骤:文档加载->文档切分->向量化->灌入向量数据库               
+### (5)使用LangFlow搭建知识库检索工作流              
+在线步骤:获取用户问题->用户问题向量化->检索向量数据库->将检索结果和用户问题填入prompt模版->用最终的prompt调用LLM->由LLM生成回复                
+### (6)通过调用API接口方式使用创建的工作流
+进入ragTest文件夹下，在使用python fromApiTest.py命令启动脚本前，需根据自己的实际情况调整代码中的如下参数：                        
+**模型相关配置 根据自己的实际情况进行调整**                                
+### (7)通过调用工作流的json文件使用工作流
+进入ragTest文件夹下，在使用python fromJsonTest.py命令启动脚本前，需根据自己的实际情况调整代码中的如下参数：                             
+**模型相关配置 根据自己的实际情况进行调整**           
+**引入LangFlow的json文件**            
+
