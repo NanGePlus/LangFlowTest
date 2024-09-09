@@ -109,7 +109,11 @@ ollama pull gemma2:latest
 ollama pull nomic-embed-text:latest                                    
 本次使用的模型如下:                  
 chat模型:qwen2:latest(7b),对应版本有0.5b、1.5b、7b、72b;llama3.1:latest(8b)，对应版本有8b、70b、405b;gemma2:latest(9b)，对应版本有2b、9b、27b等                
-embedding模型:nomic-embed-text:latest(也就是1.5版本)                        
+embedding模型:nomic-embed-text:latest(也就是1.5版本)                     
+具体安装相关的细节，可以参考这期视频:                                           
+【GraphRAG+Ollama】本地开源大模型llama3.1与qwen2构建+检索全流程实操对比评测，打造基于知识图谱的本地知识库，本地搜索、全局搜索二合一             
+https://www.bilibili.com/video/BV1mpH9eVES1/?vd_source=30acb5331e4f5739ebbad50f7cc6b949               
+https://youtu.be/thNMan45lWA               
 ### (3)启动LangFlow服务    
 首先，在终端命令行中启动LangFlow服务，执行 langflow run 命令启动                             
 启动成功后，登陆http://127.0.0.1:7860，在服务页面进入store菜单中创建API Key                                      
@@ -125,4 +129,3 @@ embedding模型:nomic-embed-text:latest(也就是1.5版本)
 进入ragTest文件夹下，在使用python fromJsonTest.py命令启动脚本前，需根据自己的实际情况调整代码中的如下参数：                             
 **模型相关配置 根据自己的实际情况进行调整**           
 **引入LangFlow的json文件**            
-
