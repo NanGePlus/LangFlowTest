@@ -104,11 +104,10 @@ Ollama是一个轻量级、跨平台的工具和库，专门为本地大语言�
 安装Ollama，进入官网https://ollama.com/下载对应系统版本直接安装即可                           
 启动Ollama，安装所需要使用的本地模型，执行指令进行安装即可:                               
 ollama pull qwen2:latest                                     
-ollama pull llama3.1:latest                                  
-ollama pull gemma2:latest                                     
+ollama pull llama3.1:latest                                                
 ollama pull nomic-embed-text:latest                                    
 本次使用的模型如下:                  
-chat模型:qwen2:latest(7b),对应版本有0.5b、1.5b、7b、72b;llama3.1:latest(8b)，对应版本有8b、70b、405b;gemma2:latest(9b)，对应版本有2b、9b、27b等                
+chat模型:qwen2:latest(7b),对应版本有0.5b、1.5b、7b、72b;llama3.1:latest(8b)，对应版本有8b、70b、405b等                
 embedding模型:nomic-embed-text:latest(也就是1.5版本)                     
 具体安装相关的细节，可以参考这期视频:                                           
 【GraphRAG+Ollama】本地开源大模型llama3.1与qwen2构建+检索全流程实操对比评测，打造基于知识图谱的本地知识库，本地搜索、全局搜索二合一             
